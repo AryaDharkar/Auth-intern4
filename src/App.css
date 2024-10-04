@@ -1,0 +1,31 @@
+* {
+  font-size: 1.5vw;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: linen;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #434040;
+  padding: 10px 5px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #0e72f5;
+}
+
+.forgotpassword {
+  width: 19%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1vw;
+}
